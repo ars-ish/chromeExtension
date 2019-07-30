@@ -8,9 +8,9 @@
 function showNotification() {
     chrome.notifications.create('reminder', {
         type: 'basic',
-        iconUrl: 'icon_128.png',
-        title: 'Don\'t forget!',
-        message: 'Пора размяться'
+        iconUrl: 'images/icon_128.png',
+        title: 'Пора встать и размяться!',
+        message: 'Долгое пребывание в сидячем положении может пагубно отразиться на здоровье'
      }, function(notificationId) {});
 }
 
