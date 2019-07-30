@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Workout reminder",
-  "version": "1",
+  "name": "Warm-up reminder",
+  "version": "1.0",
   "icons": {
     "128": "icon_128.png"
   },

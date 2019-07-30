@@ -4,11 +4,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 </head>
-<body>
-  <p><h2>Включить напоминание</h2></p>
-  <input type="number" id="minutes" min="1" max="1000">
+<body style="
+    width: 220px; 
+	padding: 2px;
+	padding-left: 10px;
+
+">
+
+  <h3>Warm-up remider</h3>
+  <p>Напоминание о разминке через указанный промежуток времени</p>
+  <input type="number" id="minutes" min="1" max="1000" value="60" step="10" style="
+    margin-bottom: 10px;
+	width: 50px;
+"> мин.</input>
   <footer id = "info">
-<button id = "toggleAlarm">Activate alarm</button>
+<button id="toggleAlarm" style="
+    margin-bottom: 10px;
+">Включить</button>
 </footer>
 <script src="alarms.js"></script>
 </body>

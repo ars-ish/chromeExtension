@@ -17,7 +17,7 @@
      })
    }
    function createAlarm() {
-	   var minutes = parseInt(document.getElementById('minutes').value);
+	 var minutes = parseInt(document.getElementById('minutes').value);
      chrome.alarms.create(alarmName, {
        delayInMinutes: minutes, periodInMinutes: minutes});
    }
