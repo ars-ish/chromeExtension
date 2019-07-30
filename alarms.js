@@ -8,17 +8,18 @@
        });
        var newLabel;
        if (hasAlarm) {
-         newLabel = 'Cancel alarm';
+         newLabel = 'Отключить';
        } else {
-         newLabel = 'Activate alarm';
+         newLabel = 'Включить';
        }
        document.getElementById('toggleAlarm').innerText = newLabel;
        if (callback) callback(hasAlarm);
      })
    }
    function createAlarm() {
+	   var minutes = parseInt(document.getElementById('minutes').value);
      chrome.alarms.create(alarmName, {
-       delayInMinutes: 0.1, periodInMinutes: 0.1});
+       delayInMinutes: minutes, periodInMinutes: minutes});
    }
    function cancelAlarm() {
      chrome.alarms.clear(alarmName);
