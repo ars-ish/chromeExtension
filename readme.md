@@ -1,2 +1,2 @@
-![Screenshot](https://github.com/arslan174/chromeExtension/tree/master/screenshots/activation.png)
-![Screenshot](https://github.com/arslan174/chromeExtension/tree/master/screenshots/notification.png)
+![Screenshot](https://github.com/arslan174/chromeExtension/blob/master/screenshots/activation.PNG)
+![Screenshot](https://github.com/arslan174/chromeExtension/blob/master/screenshots/activation.PNG)
