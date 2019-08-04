@@ -1,2 +1,2 @@
-![Screenshot](images/activation.png)
-![Screenshot](notification/activation.png)
+![Screenshot](screenshots/activation.png)
+![Screenshot](screenshots/activation.png)
